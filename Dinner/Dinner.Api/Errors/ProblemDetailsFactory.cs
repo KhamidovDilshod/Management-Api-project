@@ -22,7 +22,7 @@ public class DinnerProblemDetailsFactory : ProblemDetailsFactory
         string? title = null,
         string? type = null,
         string? detail = null,
-        string? instance = null)
+        string? instance = null) 
     {
         statusCode ??= 500;
         var problemDetails = new ProblemDetails
