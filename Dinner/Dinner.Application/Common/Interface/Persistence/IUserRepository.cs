@@ -1,10 +1,9 @@
 using Dinner.Domain.Entities;
 
-namespace Dinner.Application.Common.Interface.Persistence
+namespace Dinner.Application.Common.Interface.Persistence;
+
+public interface IUserRepository
 {
-    public interface IUserRepository
-    {
-        User? GetUserByEmail(string email);
-        void Add(User user);
-    }
+    User? GetUserByEmail(string email);
+    void Add(User user);
 }

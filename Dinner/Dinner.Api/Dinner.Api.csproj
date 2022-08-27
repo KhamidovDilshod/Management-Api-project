@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>5d54f69b-60d5-48fc-8c9e-535a53cd5073</UserSecretsId>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>5d54f69b-60d5-48fc-8c9e-535a53cd5073</UserSecretsId>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Dinner.Contracts\Dinner.Contracts.csproj" />
-    <ProjectReference Include="..\Dinner.Application\Dinner.Application.csproj" />
-    <ProjectReference Include="..\Dinner.Infrastructure\Dinner.Infrastructure.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Dinner.Contracts\Dinner.Contracts.csproj"/>
+        <ProjectReference Include="..\Dinner.Application\Dinner.Application.csproj"/>
+        <ProjectReference Include="..\Dinner.Infrastructure\Dinner.Infrastructure.csproj"/>
+    </ItemGroup>
 
 </Project>
