@@ -1,2 +1,2 @@
 # Management-Api-project
-This project created with following CLean Architecture guides
+This project created with following Clean Architecture guides
